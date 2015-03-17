@@ -96,6 +96,7 @@ header #introduction{
 	height: 47vh;
 	min-height: 530px;
 	background-color: #F37272;
+	overflow: visible;
 }
 .column-1{
 	margin: 0;
