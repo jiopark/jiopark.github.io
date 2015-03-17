@@ -71,8 +71,15 @@ header #introduction{
 	padding-left: 10%;
 	padding-top: 4vh;
 	width: 100%;
-	height: 1500px;
+	height: 1700px;
 	background-color: #F7F7F7;
+	overflow: visible;
+}
+#previews{
+	width: 95%;
+	overflow-y: visible;
+	height: 1650px;
+	float: left;
 }
 #skills h3 h4{
 	color: rgb(255,255,255,.7);
@@ -192,12 +199,6 @@ ul{
 li{
 	padding-right: 15px;
 	word-spacing: 2px;
-}
-#previews{
-	width: 95%;
-	overflow-x: scroll;
-	height: 1400px;
-	float: left;
 }
 .pre{
 	height: 280px;

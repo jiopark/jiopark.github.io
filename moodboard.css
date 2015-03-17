@@ -35,7 +35,7 @@ header nav{
 	height: 60px;
 	font-size: 26px;
 	letter-spacing: 2px;
-	overflow: visibleß;
+	overflow: visible;
 }
 header a{
 	color: white;
@@ -213,7 +213,7 @@ li{
 #previews{
 	width: 90%;
 	overflow-y: scroll;
-	height: 600px;
+	height: 1200px;
 	float: left;
 }
 .pre{
