@@ -165,6 +165,7 @@ h1{
 	color: white;
 	font-size: 100px;
 	text-align: left;
+	overflow: none;
 }
 h2{
 	line-height: 1.25em;
