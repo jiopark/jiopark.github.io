@@ -16,6 +16,10 @@
  p.tiny{
  	font-size: 13px;
  }
+ p.tiny2{
+ 	font-size: 12px;
+ 	color: #929292;
+ }
  a,a.active,a:active,a:focus,a:hover{
  	color: #FFFA81;
  	outline:0
