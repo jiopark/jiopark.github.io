@@ -5,7 +5,7 @@ body {
 }
 a:link{
 	color: #4d3f3f;
-	font-size: 1rem;
+	font-size: 1.1rem;
 	font-weight: 400;
 }
 a:hover{
@@ -88,7 +88,8 @@ h2{
 }
 #about{
 	color:#824835; 
-	padding-top: 4%;
+	padding-top: 3%;
+	margin-top: 1.5%;
 	background-color: #FFF0DE;
 	position: absolute;
 	overflow:hidden;
@@ -98,6 +99,7 @@ h2{
 	right: 0;
 }
 #footer{
+	margin-top: 2%;
 	padding-top: 2.5%;
 	padding-bottom: 5%;
 	background-color: #FFF0DE;
