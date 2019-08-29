@@ -19,7 +19,8 @@
 	<link href="css/theme.css" rel="stylesheet">
 
 	<!--Custom fonts-->
-	<link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:600&display=swap" rel="stylesheet">
 </head>
 
 <body id="page-top" class="index">
@@ -43,47 +44,8 @@
 					<h1>PolicyBot</h1>
 					<h2>Chat bot, Conversational UX, UI</h2>
 				</div>
-				<div class="col-md-8 col-sm-12">
-					<img src="img/policybot-slack.png" class="fit">
-				</div>
-				<div class="col-md-4 col-sm-12">
-					<p><br>
-						<b>Summary</b><br>
-						Policybot is a friendly Travel & Expense administrative bot, answering users while
-						using machine learning (Microsoft QnA Maker) to recognize questions and answers pairs.
-						<br><br>
-						A user in chat (Slack) can initiate a conversation with Policybot and ask it T&E questions, such as "Can I fly first class?" If the question does not already exist in it's database, an administrator will be pinged to answer the question directly. Once the administrator answers the question, they can be prompted to add the Q&A pair to their Policybot database.
-						<br><br>
-						Policybot lives on two interfaces: Slack (user) and Website (admin)
-					</p>
-				</div>
-			</div>
-		<div class="row" style="padding-top:3%;">
-			<!-- <div class="col-md-6">
-				<img src="img/policybot-plan.png" class="fit ep">
-			</div> -->
-			<div class="col-md-6">
-				<img src="img/policybot-flow.png" class="fit ep"><br>
-			</div>
-			<div class="col-md-6">
-				<p><br>
-					<b>Research</b><br>
-					We interviewed travel administrators for large companies and found that there were little to no resources allotted to them to answer policy related questions.<br>Most users also reported that they didn't know where their travel policy documents lived, or who they could go to, to ask T&E related questions. 
-				</p>
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<p>
-					<b>Process</b><br>
-					Once initial user testing was done for Policy Bot, there was immediate feedback that administrators would like a portal or separate database to track questions. Additionally there were concerns regarding security, which is why the Policy Bot portal (website) was created. The website and slack bot have been both tested by internal users and admins for external customer including Facebook and Uber. The website can manage multiple QnA sets and uses Microsoft QnA Maker AI to recognize similar questions to already existing answers. <br><br>
-					The UI of the website was designed in to minimize onboarding, be intuitive and minimal (to make it easy for clients to customize for branding purposes) -- as setting up the Q&A pairs would take the bulk of their time. 
-				</p>
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<img src="img/policybot-plan.png" class="fit ep">
-			</div>
-		</div>
-		<div class="row">
-		<div class="col-sm-12">
+				<div class="row">
+					<div class="col-sm-12">
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 				  <ol class="carousel-indicators">
 				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -110,17 +72,74 @@
 				    <span class="sr-only">Next</span>
 				  </a>
 				</div>
-		</div>
-	</div>
-			<div class="row">
-				<div class="col-md-8 col-sm-12" style="padding-top:3%;">
-					<a href="http://jiopark.github.io/">Go Back</a>
+				<br>
+				<br>
+			</div>
+				<div class="col-md-7 col-sm-12">
+					<img src="img/policybot-slack.png" class="fit">
 				</div>
-				<div class="col-md-4 col-sm-12" style="text-align:right; padding-top:3%; text-decoration:underline;">
-					<a href="sap-smb.html">Next</a>
+				<div class="col-md-5 col-sm-12">
+					<p>
+						<b>Summary</b><br>
+						<div class="quote">
+						8/10 users reported that they didn't know where their travel policy documents lived, or who they could go to, to ask T&E related questions. 
+						</div><br>
+						Policybot is a friendly Travel & Expense administrative bot, answering users while
+						using machine learning (Microsoft QnA Maker) to recognize questions and answers pairs.
+						<br><br>
+						A user in chat (Slack) can initiate a conversation with Policybot and ask it T&E questions, such as "Can I fly first class?" If the question does not already exist in it's database, an administrator will be pinged to answer the question directly. Once the administrator answers the question, they can be prompted to add the Q&A pair to their Policybot database.
+						<br><br>
+					</p>
 				</div>
 			</div>
-	</div>
+		<div class="row" style="padding-top:3%;">
+			<!-- <div class="col-md-6">
+				<img src="img/policybot-plan.png" class="fit ep">
+			</div> -->
+			<div class="col-md-7">
+				<img src="img/policybot-flow.png" class="fit ep"><br>
+			</div>
+			<div class="col-md-5">
+				<p>
+					I designed the
+					<ul>
+						<li>Voice for the policy bot (Conversational UX)</li> 
+						<li>Onboarding flow for travel admins & used</li>
+						<li>Website portal for administrators</li>
+					</ul>
+						Policybot lives on two interfaces: Slack (user) and Website (admin)
+					<br><br>
+					<b>Research</b>
+					<br>
+						I interviewed travel administrators and found that there were little to no resources allotted to them to assist in answering employees' travel & policy related questions. I read user feedback and requests for an assistant that could answer travel/expense questions.
+					<br>
+				</p>
+			</div>
+			<div class="col-md-7 col-sm-12">
+				<img src="img/policybot-plan.png" class="fit ep">
+			</div>
+			<div class="col-md-5 col-sm-12">
+				<p>
+					<b>Process</b><br>
+					Once initial user testing was done for Policy Bot, there was immediate feedback that administrators would like a portal or separate database to track questions. <br><!-- <br>There were also concerns regarding security, which is why the Policy Bot portal (website) was created with SSO --> <br>The website and slack bot have been both tested by internal users and admins for external customers including Facebook and Uber. <br><br>
+					The website was designed to simplify onboarding, be intuitive and minimal in order to make it easy for clients to customize with their own branding. 
+				</p>
+				<p>
+					<b>Outcome</b><br>
+					Policybot has been incorporated into <a href="https://concurlabs.com/projects/policybot.html" style="font-size: 1rem; text-decoration: underline;">Concur Assistant</a> (beta), on the mobile app. 
+				</p>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-sm-12" style="padding-top:6%;">
+					<a href="http://jiopark.github.io/">Go Back</a>
+				</div>
+				<div class="col-md-4 col-sm-12" style="text-align:right;padding-top:6%; text-decoration:underline;">
+					<a href="itemator.html">Next</a>
+				</div>
+			</div>
+		</div>
 	</section>
 	<footer>
 		<section id="footer">

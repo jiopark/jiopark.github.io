@@ -55,6 +55,42 @@ p{
 	font-weight: 600;
 	font-size: 20px;
 }
+.btn{
+	padding: .4rem .4rem;
+	transition: color .15s ease-in-out,background-color 
+	.15s ease-in-out,border-color 
+	.15s ease-in-out,box-shadow 
+	.15s ease-in-out;
+}
+.btn-primary{
+	/*color: #fff0de !important;*/
+	border-color: #ffebd2 !important;
+	border-radius: 0rem !important;
+	background-color: #ffebd2 !important;
+}
+.modal-header{
+	border-bottom: 0px;
+	padding-top: 1.5rem;
+    padding-right: 2rem;
+    padding-bottom: 0rem;
+    padding-left: 2rem;
+}
+.modal-title{
+	font-size: .9rem;
+}
+.modal-content{
+	border-radius: .2rem;
+	background-color: white;
+}
+.modal-body{
+	padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+.cover{
+
+}
 .box{
 
 }
@@ -76,6 +112,12 @@ p{
 }
 .portfolio:hover{
 	display: inline-block;
+}
+.quote{
+	font-size: 1.6rem;
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 600;
+	line-height: 1.9rem;
 }
 h1{
 	font-size: 21px;
